@@ -1,6 +1,9 @@
 # **Guía 2 - Análisis de datos con Pandas**
 
-## Análisis de deserción de clientes en el sector de telecomunicaciones
+## Instrucciones de ejecución:
+Es necesario leer el archivo en formato csv "telecom_churn.csv" y tener en cuenta el contexto generado para la base de datos que se incluye en la primera parte del archivo .ipynb.
+
+## Análisis de deserción de clientes en el sector de telecomunicaciones:
 
 Teniendo en cuenta que para las empresas de la industria de telecomunicaciones, la retención de clientes es un factor crítico donde adquirir nuevos clientes puede ser más costosos que mantener los actuales, el análisis se concentró en descubrir patrónes o factores que permitan identificar las causas posibles de deserción de clientes (*churn*).
 
@@ -17,6 +20,3 @@ En lo que concierne a servicio al cliente, al agrupar los clientes que se comuni
 Finalmente, se revisó si el costo total de las llamadas diurnas y nocturnas, así como el gasto realizado por los clientes en llamadas internacionales influían en la tasa de deserción. Se observa que el costo de las llamadas diuernas y nocturnas es mayor en los clientes dados de baja, así como el gasto en llamadas es mayor en estos usuarios respecto a los que aun siguen activos.
 
 De esta manera, se puede concluir que los planes con servicio incluido de llamadas internacionales incluidos y de correo de voz; la cantidad de minutos usados; la cantidad de veces que el usuario se comunica con servicio al cliente y el costo de las llamadas son variables que influyen en la decisión de cancelar el servicio de telecomunicaciones en esta empresa y, por tanto, factores a mejorar para lograr una mayor tasa de retención de los clientes.
-
-
-
