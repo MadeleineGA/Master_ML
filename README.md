@@ -2,13 +2,13 @@
 
 ## Análisis de deserción de clientes en el sector de telecomunicaciones
 
-Teniendo en cuenta que para las empresas de la industria de telecomunicaciones, la retención de clientes es un factor crítico donde adquirir nuevos clientes puede ser más costosos que mantener los actuales, el análisis se concentró en descubrir patrónes o factores que permitan identificar las causas posibles de deserción de clientes (*churn*).
+Al tener en cuenta que para las empresas de la industria de telecomunicaciones, la retención de clientes es un factor crítico donde adquirir nuevos clientes puede ser más costoso que mantener los actuales, el análisis se concentró en descubrir patrónes o factores que permitan identificar las causas posibles de deserción de clientes (*churn*).
 
-El trabajo, condensado en el archivo .ipynb llamado *guia_2*, consistió, en primer lugar, en realizar un análisis explotarorio de la base de datos para entender la cantidad de información con la que se contaba, es decir, la dimensión del dataset, la cantidad y el tipo de variables que pueden ser relevantes para tratar el problema y la distribución de la variable objetivo *churn* y si el dataset contaba con información faltante o valores nulos.
+El trabajo, condensado en el archivo .ipynb llamado *guia_2*, consistió, en primer lugar, en realizar un análisis explotarorio de la base de datos para entender la cantidad de información con la que se contaba, es decir, la dimensión del dataset, la cantidad y el tipo de variables que pueden ser relevantes para tratar el problema, la distribución de la variable objetivo *churn* y si el dataset contaba con información faltante o valores nulos.
 
-Posteriormente, se utilizaron variables concernientes a servicios adicionales al plan de los clientes como plan internacional o servicio de correo de voz, con el din de identificar si eran factores que influyen en las tasas de deserción. En este casp, se encontró que la deserción es 30% mayor en planes que contaban con servicio internacional y de 8% más en planes que no cuentan con servicio de correo de voz.
+Posteriormente, se utilizaron variables concernientes a servicios adicionales al plan de los clientes como plan internacional o servicio de correo de voz, con el din de identificar si eran factores que influyen en las tasas de deserción. En este caso, se encontró que la deserción es 30% mayor en planes que contaban con servicio internacional y de 8% más en planes que no cuentan con servicio de correo de voz.
 
-Por otro lado, respecto a la duración de las cuentas de los clientes se encontró que la desersion de clientes es mayor en cuentas con mayor tiempo de antiguedad, sin embargo los promedios son muy similares similares.
+Por otro lado, respecto a la duración de las cuentas de los clientes se encontró que la desersion de clientes es mayor en cuentas con mayor tiempo de antiguedad, sin embargo los promedios son muy similares.
 
 Con relación a las variables asociadas al uso del servicio como los minutos usados en los diferentes momentos del día, se encontró que en general, decir tanto en minutos usados durante el día como en la noche, la cantidad de minutos promedio usados por los clientes dados de baja es mayor respecto a la media de clientes activos.
 
